@@ -1,0 +1,19 @@
+﻿#   Version 6.1.2
+
+# Modify the following line to suit the location of your Splunk install.
+# If unset, Splunk will use the parent of the directory this configuration
+# file was found in
+#
+# SPLUNK_HOME=C:\Program Files\Splunk\
+
+# By default, Splunk stores its indexes under SPLUNK_HOME in the
+# var\lib\splunk subdirectory.  This can be overridden
+# here:
+#
+# SPLUNK_DB=C:\splunk\build-home\6.1.2\var\lib\splunk
+
+# Splunkd service name
+SPLUNK_SERVER_NAME=Splunkd
+
+# Splunkweb service name
+SPLUNK_WEB_NAME=splunkweb

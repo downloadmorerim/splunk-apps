@@ -1,0 +1,10 @@
+sid,search,"splunk_server","_time","is_realtime","event_count","exec_time","result_count","scan_count",status,"total_run_time","__mv_sid","__mv_search","__mv_splunk_server","__mv__time","__mv_is_realtime","__mv_event_count","__mv_exec_time","__mv_result_count","__mv_scan_count","__mv_status","__mv_total_run_time"
+"1404665308.7","|history | head 2000 | search event_count>0 OR result_count>0 | dedup search | table search","Greg-HP","1404665308.951921",0,0,1404665308,0,0,canceled,"0.094000",,,,,,,,,,,
+"1404665510.13","| eventcount summarize=false index=* index=_* | dedup index","Greg-HP","1404665510.365858",0,,,,,,,,,,,,,,,,,
+"1404665619.16","|history | head 2000 | search event_count>0 OR result_count>0 | dedup search | table search","Greg-HP","1404665619.540838",0,0,1404665619,0,0,canceled,"0.157000",,,,,,,,,,,
+"1404668310.26","|history | head 2000 | search event_count>0 OR result_count>0 | dedup search | table search","Greg-HP","1404668310.092241",0,0,1404668310,0,0,canceled,"0.079000",,,,,,,,,,,
+"1404669381.59","|history | head 2000 | search event_count>0 OR result_count>0 | dedup search | table search","Greg-HP","1404669381.760364",0,0,1404669381,0,0,canceled,"0.071000",,,,,,,,,,,
+"1404669494.67","|history | head 2000 | search event_count>0 OR result_count>0 | dedup search | table search","Greg-HP","1404669494.498555",0,0,1404669494,0,0,canceled,"0.172000",,,,,,,,,,,
+"1404784156.9","|history | head 2000 | search event_count>0 OR result_count>0 | dedup search | table search","Greg-HP","1404784156.640393",0,0,1404784156,0,0,canceled,"0.094000",,,,,,,,,,,
+"1404784248.16","|history | head 2000 | search event_count>0 OR result_count>0 | dedup search | table search","Greg-HP","1404784248.165752",0,0,1404784248,0,0,canceled,"0.235000",,,,,,,,,,,
+"1404787311.3","| eventcount summarize=false index=* index=_* | dedup index","Greg-HP","1404787311.600054",0,,,,,,,,,,,,,,,,,

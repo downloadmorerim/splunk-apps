@@ -1,0 +1,19 @@
+[indexes/mygizmostoreindex]
+owner = admin
+version = 6.1.2
+modtime = 1404665424.051715300
+
+[indexes/eventlog]
+owner = admin
+version = 6.1.2
+modtime = 1404783841.534099600
+
+[inputs/WinEventLog%3A%2F%2FApplication]
+owner = admin
+version = 6.1.2
+modtime = 1404786272.605618700
+
+[inputs/splunktcp%3A%2F%2F9997]
+owner = admin
+version = 6.1.2
+modtime = 1404786175.480785400

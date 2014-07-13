@@ -1,0 +1,3 @@
+sid,search,"splunk_server","_time","is_realtime","__mv_sid","__mv_search","__mv_splunk_server","__mv__time","__mv_is_realtime"
+"1404665273.4","| eventcount summarize=false index=* index=_* | dedup index","Greg-HP","1404665273.546264",0,,,,,
+"1404786278.6","| eventcount summarize=false index=* index=_* | dedup index","Greg-HP","1404786278.510368",0,,,,,
